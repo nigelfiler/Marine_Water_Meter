@@ -26,7 +26,7 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 ## Power Consumption
 - **Active mode:** 81mA
 - **Sleep mode:** 16mA
-- **Power input:** 7 - 32V DC (depends on regulator installed)
+- **Power input:** 7 - 32V DC (depends on regulator installed) Typically 12-14v would be the normal voltage on the boat.
 
 ## Sensors & Functionality
 ### Waste & Water Tank
