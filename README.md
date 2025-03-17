@@ -1,4 +1,4 @@
-# Marine_Water_Meter
+# Marine Water Meter
 Project to replace existing analog water gauge with digital version based on Arduino
 
 The fresh water gauge on the boat is not the most accurate, nor is it very user friendly, I felt this could be improved. This project is a digital replacement so I built a replacement using Arduino.
