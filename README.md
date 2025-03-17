@@ -6,6 +6,7 @@ A project to replace the existing analog water gauge with a digital version base
 The domestic fresh water gauge on the boat is not the most accurate, nor is it very user-friendly. This project improves upon it by incorporating a digital display with additional measurements such as:
 - Water temperature
 - Black tank level
+- Shower Sump monitoring
 
 An OLED display fits where the existing analog meter is installed, and an Arduino is mounted behind the electrical panel.
 
