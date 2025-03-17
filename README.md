@@ -1,7 +1,7 @@
 # Marine Water Meter
 Project to replace existing analog water gauge with digital version based on Arduino
 
-The fresh water gauge on the boat is not the most accurate, nor is it very user friendly, I felt this could be improved. This project is a digital replacement so I built a replacement using Arduino.
+The domestic fresh water gauge on the boat is not the most accurate, nor is it very user friendly, I felt this could be improved. This project is a replacement with a digital display incorporating other measurements such as water temperature, Black tank level
 
 There is an Oled display that fits where the existing analogue meter is fitted and an Arduino that is fitted behind the electrical panel.
 
