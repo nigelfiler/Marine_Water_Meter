@@ -1,24 +1,54 @@
 # Marine Water Meter
-Project to replace existing analog water gauge with digital version based on Arduino
 
-The domestic fresh water gauge on the boat is not the most accurate, nor is it very user friendly, I felt this could be improved. This project is a replacement with a digital display incorporating other measurements such as water temperature, Black tank level
+## Project Overview
+A project to replace the existing analog water gauge with a digital version based on Arduino.
 
-There is an Oled display that fits where the existing analogue meter is fitted and an Arduino that is fitted behind the electrical panel.
+The domestic fresh water gauge on the boat is not the most accurate, nor is it very user-friendly. This project improves upon it by incorporating a digital display with additional measurements such as:
+- Water temperature
+- Black tank level
+
+An OLED display fits where the existing analog meter is installed, and an Arduino is mounted behind the electrical panel.
+
+## Features
+- **Power-up sequence:**
+  - Checks supply voltage
+  - Verifies shower sump status
+  - Displays black tank level for 5 seconds
+  - Shows fresh water tank level and domestic hot water temperature
+- **Tank level updates every 5 seconds** to prevent value from fluctuating quickly due to boat movement
+- **Power-saving mode:**
+  - Board sleeps after a defined timeout to save power
+  - Reduces light distraction at night
+- **Temperature monitoring:**
+  - Thermistor attached to the hot water cylinder surface relays temperature
+
+## Power Consumption
+- **Active mode:** 81mA
+- **Sleep mode:** 16mA
+- **Power input:** 7 - 32V DC (depends on regulator installed)
+
+## Sensors & Functionality
+### Waste & Water Tank
+- Uses a **0-190 Ohm water level sensor** of appropriate length for the tank
+- Code calculates tank level based on resistance and displays a percentage value
+
+### Water Temperature
+- Thermistor adhered to the hot water cylinder surface calculates the temperature
+
+### Shower Sump Monitoring
+- Shower sump boxes can fail, leading to overflow into the bilge
+- A **magnetic float switch** is added to the sump case
+- The system monitors the switch and displays:
+  - `Shower Sump FULL`
+  - `Shower Sump OK`
+
+## User Interaction
+- The board can be **woken up using the existing push button** on the current water gauge
+- Upon wake-up, all readings are displayed before switching to fresh tank level and hot water temperature
+
+## Additional Considerations
+- The project uses a **0-190 Ohm water level gauge sensor**
+- Installation requires drilling into the black tank and water tank
 
 
-On power up the board checks the supply voltage, checks the shower sump is not full, displays the black tank level for 5 seconds and finally displays the fresh water tank level and the domestic hot water temperature on the domestic supply.
 
-The fresh water tank is updated every 5 seconds, this allows for boat movement without the level flickering between values.
-
-When the board reaches a defined power down time it will sleep, this will save power and light distraction at night from the display.
-
-A thermistor attached to the outer surface of the hot water cylinder will relay the temperature of the hot water.
-
-
-Power consumption: 81ma (Sleep:16mA) - based on both water sensors at 0%
-
-Power input: 7 - 32v DC - Depending on the regulator installed.
-
-Uses existing 0-190 ohm water level gauge sensor. I need to fit a suitable one to my black tank and need to drill the tank so if anyone has any suggestions on what to use for this, it would be appreciated.
-
-User can wake the board using the existing push button on the current water gauge at which point all the readings will be displayed before showing the fresh tank level / Hot water temperature.
