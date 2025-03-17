@@ -51,5 +51,9 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 - The project uses a **0-190 Ohm water level gauge sensor**
 - Installation requires drilling into the black tank and water tank
 
+## Future Ideas
+- Rotary encoder can be used with the board to select other functions
+- Could be used to monitor fridge temeratures
+
 
 
