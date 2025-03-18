@@ -41,7 +41,7 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 - A **magnetic float switch** is added to the sump case
 - At power up the system checks the switch and displays:
   - `Shower Sump FULL`  
-          **OR**
+**OR**
   - `Shower Sump OK`
 - Whilst running a timer periodically checks the switch and if the shower sump is full (switch closed) the display will show:
   - `Shower Sump FULL`
