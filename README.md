@@ -54,6 +54,7 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 ## Future Ideas
 - Rotary encoder can be used with the board to select other functions
 - Could be used to monitor fridge temperatures
+- Air quality monitor
 
 ## Video Showing Operation
   https://www.youtube.com/shorts/WlagKgHyAQc
