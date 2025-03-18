@@ -39,9 +39,11 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 ### Shower Sump Monitoring
 - Shower sump boxes can fail, leading to overflow into the bilge
 - A **magnetic float switch** is added to the sump case
-- The system monitors the switch and displays:
+- At power up the  system checks the switch and displays:
   - `Shower Sump FULL`
   - `Shower Sump OK`
+- Whilst running a timer periodically checks the switch and if the shower sump is full (switch closed) the display will show:
+  - `Shower Sump FULL`
 
 ## User Interaction
 - The board can be **woken up using the existing push button** on the current water gauge
