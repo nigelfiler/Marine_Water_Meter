@@ -1,7 +1,7 @@
 # Marine Water Meter
 
 ## Project Overview
-A project to replace the existing analog water gauge with a digital version based on Arduino.
+A project to replace the existing analog water gauge on a Sealine S28 with a digital version based on Arduino.
 
 The domestic fresh water gauge on the boat is not the most accurate, nor is it very user-friendly. This project improves upon it by incorporating a digital display with additional measurements such as:
 - Water temperature
