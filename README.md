@@ -37,8 +37,7 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 - Thermistor adhered to the hot water cylinder surface calculates the temperature
 
 ### Shower Sump Monitoring
-- Shower sump boxes can fail, leading to overflow into the bilge
-- A **magnetic float switch** is added to the sump case
+- Shower sump boxes can fail, leading to overflow into the bilge, a **magnetic float switch** is added to the sump case
 - At power up the system checks the switch and displays:
   - `Shower Sump FULL`  
 **OR**
@@ -51,8 +50,8 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 - Upon wake-up, all readings are displayed before switching to fresh tank level and hot water temperature
 
 ## Additional Considerations
-- The project uses a **0-190 Ohm water level gauge sensor**
-- Installation requires drilling into the black tank and water tank
+- The project uses qty 2 **0-190 Ohm water level gauge sensor**
+- Installation requires drilling into the black tank and water tank and running twin core cable from the tanks to the Arduino
 
 ## Future Ideas
 - Rotary encoder can be used with the board to select other functions
