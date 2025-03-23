@@ -52,7 +52,7 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 - Upon wake-up, all readings are displayed before switching to fresh tank level and hot water temperature
 
 ## Additional Considerations
-- The project uses qty 2 **0-190 Ohm water level gauge sensor**
+- The project uses 2x **0-190 Ohm water level gauge sensor**
 - Installation requires drilling into the black tank and water tank and running twin core cable from the tanks to the Arduino
 
 ## Future Ideas
