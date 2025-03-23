@@ -22,11 +22,12 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
   - Reduces light distraction at night
 - **Temperature monitoring:**
   - Thermistor attached to the hot water cylinder surface relays temperature
+  - Temperature monitoring for another device, eg Fridge.
 
 ## Power Consumption
 - **Active mode:** 81mA
 - **Sleep mode:** 16mA
-- **Power input:** 7 - 32V DC (depends on regulator installed) Typically 12-14v would be the normal voltage on the boat.
+- **Power input:** 9 - 32V DC (depends on regulator installed) Typically 12-14v would be the normal voltage on the boat.
 
 ## Sensors & Functionality
 ### Waste & Water Tank
@@ -54,11 +55,10 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 - Installation requires drilling into the black tank and water tank and running twin core cable from the tanks to the Arduino
 
 ## Future Ideas
-- Rotary encoder can be used with the board to select other functions
-- Could be used to monitor fridge temperatures
-- Air quality monitor
+- Rotary encoder is supported on the PCB need to create code for the board to select other functions as required
+- Air quality monitor based on BME688 has been added to the hardware design. Needs to be coded. Can be used to monitor Temperature, Humidity, Pressure and Gas.
 
-## Video Showing Operation
+## Video Showing Operation (Earlier version)
   https://www.youtube.com/shorts/WlagKgHyAQc
 
 
