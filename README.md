@@ -45,6 +45,7 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
   - `Shower Sump OK`
 - Whilst running a timer periodically checks the switch and if the shower sump is full (switch closed) the display will show:
   - `Shower Sump FULL`
+  - Option to control a LED which could show a warning on a panel
 
 ## User Interaction
 - The board can be woken up using the existing push button on the current water gauge
