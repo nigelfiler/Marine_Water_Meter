@@ -25,7 +25,7 @@ Connect water and waste float senders on the appropriate terminals. Polarity not
  C1, C2 - 0.1uF, for smoothing the regulator. Exact value not too important
  C4,C5,C6 - 0.1uF, for debouncing rotary encoder. Exact value not too important
  Fuse - Resetable 1A fuse. ebay - PPTC radial lead polyswitch. 1A.
- Arduino - Use Ardunio Every this model has more memory than a Nano.
+ Arduino - Use "Ardunio Every" this model has more memory than a Nano.
  DC-DC: 12v->9V regulator.  Arduino needs 7v minimum to correctly provide 5v on the 5v pin
  Display - 1.3" OLED eg: https://www.ebay.co.uk/itm/203653375472?var=504969017093 Any other brand of OLED is fine. 1.3" fits the panel cover. Uses the SH1106 driver.
  Display wiring: PCB: Pin1=VCC, Pin2=0v, Pin3=SCL, Pin4=n/c, Pin5=SDA. You need to make a suitable cable. Pin4 is not connected and is designed to be a 'key' so the connector can't be put on incorrectly.
