@@ -31,11 +31,11 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 
 ## Sensors & Functionality
 ### Waste & Water Tank
-- Uses a **0-190 Ohm water level sensor** of appropriate length for the tank
-- Code calculates tank level based on resistance and displays a percentage value
+- Uses a **0-190 Ohm water level sensor** of appropriate length for the tank.
+- Code calculates tank level based on resistance and displays a percentage value.
 
 ### Water Temperature
-- Thermistor adhered to the hot water cylinder surface calculates the temperature
+- Thermistor adhered to the hot water cylinder surface calculates the temperature.
 
 ### Shower Sump Monitoring
 - Shower sump boxes can fail, leading to overflow into the bilge, a **magnetic float switch** is added to the sump case
@@ -45,19 +45,22 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
   - `Shower Sump OK`
 - Whilst running a timer periodically checks the switch and if the shower sump is full (switch closed) the display will show:
   - `Shower Sump FULL`
-  - Option to control a LED which could show a warning on a panel
+  - Option to control a LED which could show a warning on a panel.
 
 ## User Interaction
-- The board can be woken up using the existing push button on the current water gauge
-- Upon wake-up, all readings are displayed before switching to fresh tank level and hot water temperature
+- The board is woken up using the existing push button on the current water gauge. This perfoms a reset on the Arduino.
+- Upon wake-up, all readings are displayed before switching to fresh tank level and hot water temperature.
 
 ## Additional Considerations
 - The project uses 2x **0-190 Ohm water level gauge sensor**
-- Installation requires drilling into the black tank and water tank and running twin core cable from the tanks to the Arduino
+- Installation requires drilling into the black tank and water tank and running twin core cable from the tanks to the Arduino.
 
 ## Future Ideas
-- Rotary encoder is supported on the PCB need to create code for the board to select other functions as required
+- Rotary encoder is supported on the PCB,  need to create code for the board to select other functions as required.
 - Air quality monitor based on BME688 has been added to the hardware design. Needs to be coded. Can be used to monitor Temperature, Humidity, Pressure and Gas.
+- Recently added additional hardware support for a 2nd temperature input. Could be used to monitor fridge temperature.
+- Arduino has 3 spare digital inputs and 1 analogue input.
+  
 
 ## Video Showing Operation (Earlier version)
   https://www.youtube.com/shorts/WlagKgHyAQc
