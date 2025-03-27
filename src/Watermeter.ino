@@ -306,7 +306,7 @@ void updateWaste() {
   displayTankValue(wasteTankValue, 40, 55);
   }
   u8g2.sendBuffer();
-  delay(2000);  //Displays waste tank value for 3 seconds at power up - Fix blocking code
+  delay(2000);  //Displays waste tank value for 2 seconds at power up - Fix blocking code
   if(wasteTankValue >75){
 //Turn LED on - LED on main distribution board could be used as a warning light
 
