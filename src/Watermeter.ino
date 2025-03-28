@@ -7,7 +7,7 @@
 When setting up connect a 100 Ohm resistor in place of the waste and water tank senders. 
 Adjust the 2 potentiometers until the readings for the tanks are 55% - you will then be close for when you connect up the senders, which you should test on the bench beforehand.
 Connect water and waste float senders on the appropriate terminals. Polarity not important.
-
+You will need a reset switch. In my case there was an existing button on the switch panel that I repurposed. 
 
  ********* Parts list **************
  VR1 - 500 Ohm multi-turn pot (Water adjustment) Adjust so you get 100% when sender is at the top and make sure you get 0% at bottom.
