@@ -49,8 +49,6 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
   - `Shower Sump FULL`
   - Option to control a LED which could show a warning on a panel.
 
-![Sump](./Gauge_after2.jpg)
-
 ## User Interaction
 - The board is woken up using the existing push button on the current water gauge. This perfoms a reset on the Arduino.
 - Upon wake-up, all readings are displayed before switching to fresh tank level and hot water temperature.
