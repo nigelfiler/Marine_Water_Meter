@@ -12,8 +12,6 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 
 ![Digram](./Arduino-Block-Diagram.png)
 
-
-
 ## Features
 - **Power-up sequence:**
   - Checks supply voltage
