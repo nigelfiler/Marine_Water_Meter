@@ -10,8 +10,7 @@ The domestic fresh water gauge on the boat is not the most accurate, nor is it v
 
 An OLED display fits where the existing analog meter is installed, and an Arduino is mounted behind the electrical panel.
 
-https://github.com/nigelfiler/Marine_Water_Meter/blob/main/Arduino-Block-Diagram.png?raw=true![image](https://github.com/user-attachments/assets/4bcc1531-f937-4ec5-925a-8062096ff00a)
-
+![Digram](./Arduino-Block-Diagram.png)
 
 
 
