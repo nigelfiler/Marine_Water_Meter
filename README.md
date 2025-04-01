@@ -50,7 +50,7 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
   - Option to control a LED which could show a warning on a panel.
 
 ## User Interaction
-- The board is woken up using the existing push button on the current water gauge. This perfoms a reset on the Arduino.
+- The board is powered from the existing domestic water pump circuit. The existing push switch on the panel used to read the old analogue display is repurposed to wake the board when pressed. This perfoms a reset on the Arduino.
 - Upon wake-up, all readings are displayed before switching to fresh tank level and hot water temperature.
 
 ## Additional Considerations
