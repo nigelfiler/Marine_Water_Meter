@@ -5,7 +5,7 @@ A project to replace the existing analog water gauge on a Sealine S28 with a dig
 
 The domestic fresh water gauge on the boat is not the most accurate, nor is it very user-friendly. This project improves upon it by incorporating a digital display with additional measurements such as:
 - Water temperature
-- Black tank level
+- Waste tank level
 - Shower Sump monitoring
 
 An OLED display fits where the existing analog meter is installed, and an Arduino is mounted behind the electrical panel.
@@ -16,7 +16,7 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 - **Power-up sequence:**
   - Checks supply voltage
   - Verifies shower sump status
-  - Displays black tank level for 5 seconds
+  - Displays waste tank level for 5 seconds
   - Shows fresh water tank level and domestic hot water temperature
 - **Tank level updates every 5 seconds** to prevent value from fluctuating quickly due to boat movement
 - **Power-saving mode:**
