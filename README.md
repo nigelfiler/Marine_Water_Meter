@@ -63,6 +63,11 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 - Air quality monitor based on BME688 has been added to the hardware design. Needs to be coded. Can be used to monitor Temperature, Humidity, Pressure and Gas.
 - Recently added additional hardware support for a 2nd temperature input. Could be used to monitor fridge temperature.
 - With this configuration the Arduino has 3 spare digital inputs and 1 analogue input for future expansion. This would need adding to the PCB design.
+
+## Assembled Board
+
+![Photo](./pcb/PCB_Photo.jpg)
+  
   
 
 ## Video Showing Operation (Earlier version)
