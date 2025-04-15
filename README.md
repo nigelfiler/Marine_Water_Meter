@@ -74,6 +74,6 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
   https://www.youtube.com/shorts/WlagKgHyAQc
 
 ## Boards Available
-I do have a limited number of blank PCBs available based on the latest design for £6.00 (UK post only).
+I do have a limited number of blank PCBs available based on the latest design (as shown above) for £6.00 (UK post only).
 [PCB](./pcb/PCB_Layout.png)
 
