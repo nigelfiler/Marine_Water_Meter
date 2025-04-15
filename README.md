@@ -67,6 +67,8 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 ## Assembled Board
 
 ![Photo](./pcb/PCB_Photo.jpg)
+
+Size: 90x50mm
   
   
 
