@@ -56,7 +56,7 @@ An OLED display fits where the existing analog meter is installed, and an Arduin
 ## Additional Considerations
 - The project uses 2x **0-190 Ohm water level gauge sensor**
 - Installation requires drilling into the black tank and water tank and running twin core cable from the tanks to the Arduino.
-- Senders are mounted with a flange adaptor that is SAE 5 hole
+- Senders are mounted with a SAE 5 hole flange adaptor.
 
 ## Future Ideas
 - Rotary encoder is supported on the PCB,  need to create code for the board to select other functions as required.
